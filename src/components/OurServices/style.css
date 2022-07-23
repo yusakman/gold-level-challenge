@@ -1,0 +1,17 @@
+.our-services {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+}
+
+.our-services .right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+.strenght {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

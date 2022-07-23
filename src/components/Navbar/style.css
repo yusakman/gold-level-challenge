@@ -1,0 +1,30 @@
+.navbar-row {
+    background-color: #F1F3FF;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.navbar-row img {
+    width: 100px;
+    height: 34px;
+    position: relative;
+    top: 22px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list p {
+    padding: 10px;
+}
+
+.navbar-row img {
+    width: 100px;
+    height: 34px;
+}
+
+/* .hamburger {
+    display: none;
+} */

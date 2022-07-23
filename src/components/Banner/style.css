@@ -1,0 +1,22 @@
+.banner {
+    background-color: #F1F3FF;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 150px;
+}
+
+.left-section button {
+    background: #5CB85F;
+    color: #Fff;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+}
+

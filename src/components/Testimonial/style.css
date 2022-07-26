@@ -1,0 +1,103 @@
+.testimonial {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.testimonial h2 {
+    margin: 10px 0;
+}
+
+.testimonial p {
+    margin: 20px 0;
+}
+
+.card {
+    display: flex !important;
+    max-width: 90% !important;
+    flex-direction: row;
+    width: 619px;
+    height: 270px;
+    /* align-items: center; */
+    background-color: #F1F3FF;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.testimonial-left {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.testimonial-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+.testimonial-right p {
+    margin: 10px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.dot-left, .dot-right{
+    height: 25px;
+    width: 25px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #C4C4C4;  
+}
+
+.dot-left {
+    position: relative;
+    right: 20px;
+}
+
+.dot-right {
+    position: relative;
+    right: 10px;
+}
+
+.dot-left:hover {
+    cursor: pointer;
+    background-color: #5CB85F;
+}
+
+.dot-right:hover {
+    cursor: pointer;
+    background-color: #5CB85F;
+}
+
+.arrow {
+    position: relative;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    position: relatif;
+    top: 2px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: relative;
+    top: 2px;
+    left: 2px;
+}

@@ -1,8 +1,9 @@
+import React from "react";
 import "./style.css"
 import logo from "../../asset/logo.png"
 
 const Navbar = (props) => {
-    const {image, navList} = props
+    const {navList} = props
     return (
         <div className="navbar-row">
             {/* <img src={image} alt="Logo"></img>*/}

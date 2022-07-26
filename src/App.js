@@ -1,9 +1,9 @@
+import React from "react";
 import Cars from "./pages/Cars";
 import DetailCar from "./pages/DetailCar";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
-
-
+import './App.css';
 
 function App() {
   return (

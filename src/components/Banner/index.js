@@ -1,3 +1,4 @@
+import React from "react";
 import carImage from '../../asset/img_car.png'
 import './style.css'
 

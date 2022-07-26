@@ -10,6 +10,16 @@
     padding: 0 100px;
 }
 
+.our-services .right-section h2 {
+    margin: 10px 0;
+}
+
+.our-services .right-section p {
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+
 .strenght {
     display: flex;
     flex-direction: row;

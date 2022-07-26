@@ -1,0 +1,15 @@
+.faq {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.faq-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-right {
+    width: 50%;
+}

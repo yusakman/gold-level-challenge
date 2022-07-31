@@ -1,11 +1,20 @@
 .navbar-row {
     background-color: #F1F3FF;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
 }
 
+.navbar-row a {
+    list-style: none;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
 .navbar-row img {
+    max-width: 100%;
     width: 100px;
     height: 34px;
     position: relative;
@@ -14,6 +23,7 @@
 
 .nav-list {
     display: flex;
+    align-items: center;
 }
 
 .nav-list p {
@@ -25,6 +35,34 @@
     height: 34px;
 }
 
-/* .hamburger {
-    display: none;
-} */
+.nav-list svg {
+    position: relative;
+    bottom: 1px;
+    left: 30px;
+    display: none;   
+}
+
+@media screen and (max-width: 512px) {
+    .nav-list a {
+        display: none;
+    }
+
+    .navbar-row a:nth-child(0) {
+        background-color: red;
+    }
+
+    .nav-list svg {
+      display: flex;
+      position: relative;
+      top: 20px;
+    }
+
+    .nav-list svg:hover {
+        cursor: pointer;
+      }
+
+    .navbar-logo {
+        position: relative;
+        right: 30px;
+    }
+}

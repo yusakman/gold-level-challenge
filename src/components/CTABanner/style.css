@@ -34,3 +34,19 @@
     background-color: aqua;
     color: black;
 }
+
+@media screen  and (max-width: 512px){
+    .ctabanner {
+        height: 420px;
+        width: 328px;
+    }
+
+    .ctabanner h1 {
+        width: 150px;
+    }
+    
+    .ctabanner p {
+        width: 212px;
+        height: 100px;
+    }
+}

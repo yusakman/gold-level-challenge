@@ -19,9 +19,29 @@
     line-height: 30px;
 }
 
-
 .strenght {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+@media screen and (max-width: 512px) {
+    .our-services {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .our-services .right-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+    
+    .our-services .left-section img {
+        width: 344px;
+        margin: 10px
+    }
+
+
 }

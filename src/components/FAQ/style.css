@@ -2,14 +2,30 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 50px;
 }
 
 .faq-left {
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
+}
+
+.faq-left p {
+   margin: 10px 0;
 }
 
 .faq-right {
-    width: 50%;
+    width: 668px;
+}
+
+@media screen and (max-width: 512px) {
+    .faq {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 30px;
+    }
 }

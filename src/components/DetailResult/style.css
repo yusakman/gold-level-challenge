@@ -1,0 +1,39 @@
+.detail-result {
+    display: flex;
+    justify-content: center;
+}
+
+.tentang-paket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 618px;
+    width: 605px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px #00000026;
+    margin-right: 20px;
+    /* padding: 10px 10px 10px 100px; */
+}
+
+.tentang-paket ul li, .tentang-paket h2 {
+    list-style-type: circle;
+    margin-left: 40px;
+}
+
+.detail-mobil {
+    height: 435px;
+    width: 405px;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 0px #00000026;
+
+}
+
+.detail-mobil .car-name {
+    width: 100%;
+}
+
+.detail-mobil .total {
+    display: flex;
+    justify-content: space-between;
+}

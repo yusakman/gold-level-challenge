@@ -24,8 +24,8 @@ const Testimonial = (props) => {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               infinite: true,
               dots: true
             }
@@ -39,7 +39,7 @@ const Testimonial = (props) => {
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 512,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1
@@ -49,7 +49,7 @@ const Testimonial = (props) => {
       };
 
     return ( 
-        <div className="testimonial">
+        <div className="testimonial" id='testimonial'>
             <h2>Testimonial</h2>
             <p>Berbagai review positif dari para pelanggan kami</p>
             <Slider {...settings}>

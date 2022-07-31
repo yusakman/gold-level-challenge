@@ -12,6 +12,7 @@
 
 .left-section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -29,6 +30,33 @@
 
 .left-section button:hover{
     cursor: pointer;
-    color: black;
+    color: rgb(90, 55, 250);
 }
 
+.banner .right-section img {
+    height: 407px;
+    width: 704px;
+}
+
+@media screen and (max-width: 512px) {
+    .banner {
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+
+    .left-section {
+        padding: 0 60px;
+    }
+
+    .banner .right-section {
+        margin: 0 auto;
+    }
+
+    .banner .right-section img {
+        padding: 10px;
+        width: 400px;
+        height: 220px;
+        position: relative;
+        top: 60px;
+    }
+}

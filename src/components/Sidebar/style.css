@@ -1,0 +1,40 @@
+.sidebar {
+    display: none;
+}
+
+@media screen and (max-width: 512px) {
+    .sidebar {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #ffffff;
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        z-index: 99;
+        right: 0;
+    }
+
+    .sidebar span {
+        padding: 20px;
+        background-color: white;
+    }
+
+    .sidebar span:hover {
+        cursor: pointer;
+    }
+
+    .nav-mobile {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: ;
+    }
+
+    .nav-mobile a {
+        text-decoration: none;
+        color: black;
+        margin: 20px;
+    }
+
+
+}

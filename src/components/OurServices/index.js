@@ -7,7 +7,7 @@ const OurServices = (props) => {
     const {stList} = props;
 
     return ( 
-        <div className='our-services'>
+        <div className='our-services' id='our-services'>
             <div className="left-section">
                 <img src={serviceImg} alt="logo left section"></img>
             </div>

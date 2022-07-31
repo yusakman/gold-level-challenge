@@ -1,6 +1,5 @@
 import React from "react";
 import './style.css';
-import { TextField } from "@mui/material";
 import Select from 'react-select'
 
 const SearchBox = (props) => {

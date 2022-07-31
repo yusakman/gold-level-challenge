@@ -28,7 +28,7 @@ const SearchResult = (props) => {
                 data.map((item) => (
                     <div className="card-result">
                         <div className="image-box">
-                            <img src={getImage(item.image)}/>
+                            <img src={getImage(item.image)} alt=""/>
                         </div>
                         <p>{getName(item.name)}</p>
                         <p>{item.price}</p>
@@ -42,7 +42,7 @@ const SearchResult = (props) => {
                 search.map((item) => (
                     <div className="card-result">
                         <div className="image-box">
-                            <img src={getImage(item.image)}/>
+                            <img src={getImage(item.image)} alt=""/>
                         </div>
                         <p>{getName(item.name)}</p>
                         <p>Rp. 500.000 / hari</p>

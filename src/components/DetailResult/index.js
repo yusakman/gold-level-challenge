@@ -37,9 +37,9 @@ const DetailResult = (props) => {
             </div>
             <div className="detail-mobil">
                 <div>
-                    <img src={car.image} className="car-name"></img>
+                    <img src={car.image} className="car-name" alt=""></img>
                     <h3>{car.name}</h3>
-                    <span><img src={icon}></img>{car.category}</span>
+                    <span><img src={icon} alt=""></img>{car.category}</span>
                     <div className="total">
                         <h3>Total</h3>
                         <p>{car.price}</p>

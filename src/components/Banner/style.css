@@ -30,7 +30,8 @@
 
 .left-section button:hover{
     cursor: pointer;
-    color: rgb(90, 55, 250);
+    background-color: rgb(90, 55, 250);
+    color: white;
 }
 
 .banner .right-section img {

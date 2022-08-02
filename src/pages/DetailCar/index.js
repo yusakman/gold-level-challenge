@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import {navList, stList, cards, testimoni, faq, info, iconFooter, include, exclude, refund} from "../../const/static";

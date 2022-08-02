@@ -20,6 +20,10 @@
     }
 
     .sidebar span:hover {
+        color: blue;
+    }
+
+    .sidebar span:hover {
         cursor: pointer;
     }
 
@@ -27,7 +31,6 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        padding: ;
     }
 
     .nav-mobile a {
@@ -36,5 +39,7 @@
         margin: 20px;
     }
 
-
+    .nav-mobile a:hover {
+        color: blue;
+    }
 }

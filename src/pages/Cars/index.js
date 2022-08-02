@@ -11,9 +11,15 @@ const Cars = () => {
     const [data, setData] = useState([])
     const [name, setName] = useState("");
     const [search, setSearch] = useState([])
+    const [notFound, setNotFound] = useState(false)
 
     const handleChangeName = (e) => {
         setName(e.target.value)
+        if(!e.target.value.length) {
+            setSearch([])
+            setNotFound(false)
+        }
+        
     }
 
     useEffect(() => {
@@ -24,12 +30,10 @@ const Cars = () => {
         let newSearch = data.filter((data) => (
             data.name === name
         ));
+        if(!newSearch.length) {
+            setNotFound(true)
+        }
         setSearch(newSearch)
-    }
-
-    const handleCarId = (e) => {
-        console.log("Clicked")
-        console.log(e)
     }
 
     const props = {
@@ -45,7 +49,7 @@ const Cars = () => {
         handleSearch,
         data,
         search,
-        handleCarId
+        notFound
     }
 
     return (
@@ -53,6 +57,7 @@ const Cars = () => {
             <Navbar {...props}/>
             <Banner/>
             <SearchBox {...props}/>
+            {/* {!!notFound && <h1>Data yang anda masukan tidak ditemukan</h1>} */}
             <SearchResult {...props}/>
             <Footer {...props}/>
         </div>

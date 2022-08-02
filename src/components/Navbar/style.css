@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+.navbar-row a:hover {
+    color: rgb(104, 104, 99);
+}
+
 .navbar-row img {
     max-width: 100%;
     width: 100px;
